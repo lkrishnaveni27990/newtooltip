@@ -31,12 +31,12 @@ html, body{
     width: 100%;
     left: 0;
     top: 0;
-    opacity: 0;
+    opacity:0;
   }
   .all-tooltip:hover{
-    visibility: visible;
-opacity: 1;
+    opacity:100;
   }
+  
   .tooltip-content {
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -203,8 +203,8 @@ opacity: 1;
       flex-direction: column;
       max-width: 300px;
     }
-    .tooltip-1 .tooltip-content .content
-     {
+    .tooltip-1 .tooltip-content .content,
+    .tooltip-1 .tooltip-content .img {
       width: 100%;
     }
   }
